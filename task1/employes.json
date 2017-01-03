@@ -1,0 +1,57 @@
+[
+  {
+    "empName" : "Arun Shiva",
+    "Designation" : "Fresher",
+    "empId" : 1001,
+    "DOB" : "06-04-1991",
+    "Phone" : "9490181424",
+    "Experience" : "1 Year",
+    "City" : "Hyderabad"
+  },
+  {
+    "empName" : "Raj Kiran",
+    "empId" : 1002,
+    "Designation" : "Junior Analyst",
+    "DOB" : "06-04-1992",
+    "Phone" : "9866169516",
+    "Experience" : "2 Year",
+    "City" : "Hyderabad"
+  },
+  {
+    "empName" : "Rock",
+    "empId" : 1003,
+    "Designation" : "Senior Developer",
+    "DOB" : "06-04-1990",
+    "Phone" : "9440369994",
+    "Experience" : "3 Year",
+    "City" : "Hyderabad"
+  },
+  {
+    "empName" : "Rocky",
+    "empId" : 1004,
+    "Designation" : "Businees Analyst",
+    "DOB" : "06-04-1989",
+    "Experience" : "4 Year",
+    "Phone" : "9492457822",
+
+    "City" : "Hyderabad"
+  },
+  {
+    "empName" : "Rockz",
+    "empId" : 1005,
+    "Designation" : "Software Developer",
+    "DOB" : "06-04-1993",
+    "Phone" : "9581929123",
+    "Experience" : "1 Year",
+    "City" : "Hyderabad"
+  },
+  {
+    "empName" : "Rambo",
+    "empId" : 1006,
+    "Designation" : "Vice Chairman",
+    "DOB" : "06-04-1991",
+    "Phone" : "9191919191",
+    "Experience" : "2 Year",
+    "City" : "Hyderabad"
+  }
+]
