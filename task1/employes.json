@@ -1,0 +1,39 @@
+[
+  {
+    "empName" : "Arun",
+    "empId" : 1001,
+    "DOB" : "06-04-1991",
+    "Phone" : "9490181424",
+    "City" : "Hyderabad"
+  },
+  {
+    "empName" : "Shiva",
+    "empId" : 1002,
+    "DOB" : "06-04-1992",
+    "Phone" : "9866169516",
+    "City" : "Hyderabad"
+  },
+  {
+    "empName" : "Rock",
+    "empId" : 1003,
+    "DOB" : "06-04-1990",
+    "Phone" : "9440369994",
+    "City" : "Hyderabad"
+  },
+  {
+    "empName" : "Rocky",
+    "empId" : 1004,
+    "DOB" : "06-04-1989",
+    "Phone" : "9492457822",
+    "City" : "Hyderabad"
+  },
+  {
+    "empName" : "Rockz",
+    "empId" : 1005,
+    "DOB" : "06-04-1993",
+    "Phone" : "9581929123",
+    "City" : "Hyderabad"
+  }
+
+
+]
