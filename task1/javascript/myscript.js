@@ -14,8 +14,6 @@ $( document ).ready(function() {
 var EmployeeDetails = function ()
 {
     var employeesArray = new Array();
-
-
     function getEmployees()
     {
         loadJson(function(response) {
@@ -99,7 +97,7 @@ var EmployeeDetails = function ()
         var designatoin = document.createElement("p");
         for(var i=0;i<employeesArray.length;i++)
         {
-            var emp = employeesArray[i];
+            /*var emp = employeesArray[i];*/
             if(employeesArray[i].getId() == id)
             {
                 name.innerHTML = "<b> Name : </b>" + employeesArray[i].getName();
