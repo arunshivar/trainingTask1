@@ -13,9 +13,7 @@ var Employee = function()
     function getId() {
         return _empId;
     }
-    function  getEmpDesignation() {
-        return _empDesignation;
-    }
+
     function getName() {
         return _empName;
     }
@@ -55,7 +53,11 @@ var Employee = function()
     {
         _empCity = city;
     }
-    function  setEmpDesignation(designation) {
+    function  getEmpDesignation() {
+        return _empDesignation;
+    }
+    function  setEmpDesignation(designation)
+    {
         _empDesignation = designation;
     }
 
