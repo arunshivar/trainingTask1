@@ -1,0 +1,41 @@
+
+1. Write an algorithm for finding a palindrome. (Use recursive method).
+
+Take initial values as reverse equal to 0 and assign n input value to a temporary value.
+Step1 : If n>0 go to step 2 else go to step9
+Step 2 : Find the remainder of the number n.
+Step3 : Multiply the reverse value with 10 and add the remainder.
+Step4 : Find the qoutient of n.
+Step5 : if qoutient is greater than 0 then assign n = qoutient, and go to step1.
+Step6 : Else if qoutient is less or equal to zero.
+Step7 : If temporary value and reverse value are equal it is a palindrome , go to step9
+Step8: If temporeary value and reverse value are not equal it is not a palindrome, go to step9
+Step9 : Exit
+
+
+2. Write an algorithm for generating anagrams for user entered input.
+
+Step1 : Take the input string and a string array.
+Step2 : Add the string in to array and index be 0.
+Step3 : If index equal to array length go to step 
+Step4 : Else, get string at index.
+Step5 : Extract the last two characters of the string be twoCharacters and swap the characters be swappedCharacters. Let the remaining string be stored in a string rem.
+Step6 : Add the remaining string at the begining of the twoCharacters push it to the array if bit present.
+Step7: Add the remaining string in the middle of the twoCharacters, push to array iff not present.
+Step8 : Add the remainng string at the end of twoCharacters, pusht to array if not present.
+Step9 : If swappedCharacters is not equal to  twoCharacters. Assign swappedCharacters to twoCharacters and go to step6. 
+Step10: Increase the index value go to step3.
+Step11 : Display the string array.
+Step12 : Exit
+
+
+3. Write an algorithm for binary search.
+Step1 : Take the input sorted array and assign values for variable first to 0 and last to length of sorted array(n) -1.
+Step2 : If first greater than last go to step7.
+Step3 : Set variable middle to (first+last)/2.
+Step4 : If value in array at middle index equal to search, print element found, go to step7.
+Step5 : If  value in array at middle index  less than search element set first to middle+1, go to step 2.
+Step6 : If value in array at middle index  greater than search element set last to middle-1, go to step2.
+Step7 : Exit
+
+
